@@ -119,6 +119,9 @@ nav .home.home2 {
 .section4 {
   background: #F6F6F6;
 }
+.section4 .container img {
+  width: 100%;
+}
 .section4 .container p {
   text-align: center;
   color: var(--Black, #070707);
