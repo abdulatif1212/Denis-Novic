@@ -112,6 +112,10 @@ nav {
     .wrapper {
         display: flex;
         justify-content: space-between;
+        @media (max-width:950px) {
+            flex-wrap: wrap ;
+            justify-content: center; 
+        }
 
         .card {
             width: 167px;

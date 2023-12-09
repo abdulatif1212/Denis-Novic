@@ -95,6 +95,12 @@ nav .home.home2 {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 950px) {
+  .section3 .wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .section3 .wrapper .card {
   width: 167px;
   text-align: center;
